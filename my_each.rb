@@ -1,4 +1,4 @@
-def hello_t(array)
+def my_each(array)
   if block_given?
     i = 0
  
@@ -8,7 +8,6 @@ def hello_t(array)
     end
  
     array
-
 
   end
 end
